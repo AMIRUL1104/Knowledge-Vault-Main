@@ -93,7 +93,7 @@ body{
     margin-right: 5px;
     border-radius: 50%;
     background-color: #30b868;
-    box-shadow: 10px 10px 30px 0px;
+    /* box-shadow: 5px 5px 5px 5px #30b868; */
 }
 
 #bannerSection div h1{
@@ -134,4 +134,57 @@ body{
 .banner_btns button:last-child:hover {
     border: 2px solid #30b868;
     color: #FFFFFF;
+}
+
+
+/* note section  */
+#noteSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 1360px;
+    gap: 44px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+#noteSection p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#noteSection h2{
+    text-transform: capitalize;
+    font-size: 48px;
+    margin-top: 40px;
+}
+#noteSection h3{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+#noteSection .cards{
+    display: flex; 
+    align-content: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 1360px;
+   
+}
+
+#noteSection .cards div{
+     padding: 20px;
+    border-radius: 8px;
+    width: 322px;
+    box-shadow: 0px 0px 10px #9fabb6  ;
+}
+#noteSection .cards img{
+    width: 60px;
+    height: 60px;
+     background-color: #F95555;
+    padding: 10px;
+    border-radius: 50%;
 }
