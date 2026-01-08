@@ -7,11 +7,12 @@
 body{
     background-color: #FFFFFF;
     max-width: 1600px;
+     margin: 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* common styles  */
 .btn{
-    background-color: #30b868;
+    background-color: #30b869ea;
    
     padding: 16px 12px;
     border-radius: 4px;
@@ -31,8 +32,6 @@ body{
  align-items: center;
  justify-content: space-between;
  padding: 16px 120px;
- margin: 0 auto;
- border: 1px solid red;
 }
 #headerSection .logoNavbarImg{
     max-width: 139px;
@@ -51,6 +50,8 @@ body{
 #headerSection nav ul li a{
     text-decoration: none;
     color: black;
+    font-size: 18px;
+    font-weight: 600;
 }
 #headerSection nav ul a:hover{
     color: gray;
@@ -61,4 +62,76 @@ body{
 
 /* banner styling  */
 
+#bannerSection{
+    background-image: url("../assets/hero-bg.png");
+    height: 674px;
+    width: 100%;
+    background-color: #001931 ;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
 
+}
+#bannerSection div{
+    max-width: 85%;
+    text-align: center;
+}
+#bannerSection div .message{
+    color: #30b868;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 30px;
+    display: inline;
+    text-transform: capitalize;
+    font-weight: 600;
+    align-items: center;
+}
+#bannerSection div .message .earlyaccessLogo{
+    width: 5px;
+    height:5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #30b868;
+    box-shadow: 10px 10px 30px 0px;
+}
+
+#bannerSection div h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    text-transform: capitalize;
+    /* gap: 10px; */
+
+}
+
+#bannerSection div h1 .titleOne{
+    color: #FFFFFF;
+}
+#bannerSection div h1 .titleTwo{
+    color: #30b868;
+}
+#bannerSection div .subtitle{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.banner_btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 465px;
+    gap: 16px;
+    margin: 32px auto 0;
+}
+.banner_btns button:last-child {
+    background-color: transparent;
+    border: 2px solid white;
+}
+.banner_btns button:last-child:hover {
+    border: 2px solid #30b868;
+    color: #FFFFFF;
+}
