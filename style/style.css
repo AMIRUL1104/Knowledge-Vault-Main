@@ -1,4 +1,64 @@
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+body{
+    background-color: #FFFFFF;
+    max-width: 1600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* common styles  */
+.btn{
+    background-color: #30b868;
+   
+    padding: 16px 12px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: medium;
+}
+.btn:hover{
+    border: #30b868 1.6px solid ;
+    background-color: transparent;
+    color: #30b868;
+}
+#headerSection{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 16px 120px;
+ margin: 0 auto;
+ border: 1px solid red;
+}
+#headerSection .logoNavbarImg{
+    max-width: 139px;
+    max-height: 60px;
+}
+#headerSection nav{
+    text-transform: capitalize;
+}
+#headerSection nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+#headerSection nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#headerSection nav ul a:hover{
+    color: gray;
+
+}
+
+
+
+/* banner styling  */
+
+
