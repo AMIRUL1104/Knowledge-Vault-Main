@@ -13,7 +13,7 @@ body{
 /* common styles  */
 .btn{
     background-color: #30b869ea;
-   
+    border: #30b868 1.6px solid ;
     padding: 16px 12px;
     border-radius: 4px;
     border: none;
@@ -23,9 +23,9 @@ body{
     font-size: medium;
 }
 .btn:hover{
-    border: #30b868 1.6px solid ;
     background-color: transparent;
     color: #30b868;
+    border: #30b868 1.6px solid ;
 }
 #headerSection{
  display: flex;
@@ -241,4 +241,30 @@ body{
      margin-top: 16px;
      font-size: 18px;
      font-weight: 400;
+}
+
+#earlyaccessSection{
+    padding:0px 120px 120px;
+    margin: 0px auto;
+}
+#earlyaccessSection .earlyaccessBox{
+  background-color: #eeeeee;
+  text-align: center;
+  padding:80px 40px;
+   border-radius: 12px;
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+}
+#earlyaccessSection .earlyaccessBox h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+#earlyaccessSection .earlyaccessBox p{
+    font-size: 16px;
+    font-size: 16px;
+    color: #627382;
+    line-height: 16px;
+    margin-top: 16px;
 }
